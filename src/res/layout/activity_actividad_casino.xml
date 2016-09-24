@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+		<TableLayout
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		>
+
+    		<!-- fila 1 -->
+   				<TableRow
+			        android:id="@+id/fila1TablaCasino"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:padding="5dip" >
+ 
+	        		<TextView
+			            android:id="@+id/labelNombre"
+			            android:text="Nombre: "
+			            android:textAppearance="?android:attr/textAppearanceMedium" />
+	 
+				    <EditText
+				        android:id="@+id/fieldNombre"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:ems="10"
+				        android:text="Casino"
+				        android:clickable="false" 
+				        android:cursorVisible="false" 
+				        android:focusable="false" 
+				        android:focusableInTouchMode="false">
+				    </EditText>
+    			</TableRow>
+ 
+			    <!-- fila 2 -->
+				<TableRow
+			        android:id="@+id/fila2TablaCasino"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:padding="5dip" >
+				    
+	        		<TextView
+			            android:id="@+id/labelCapacidad"
+			            android:text="Capacidad: "
+			            android:textAppearance="?android:attr/textAppearanceMedium" />
+	 
+				    <EditText
+				        android:id="@+id/fieldCapacidad"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:ems="10"
+				        android:text="100 personas"
+				        android:clickable="false" 
+				        android:cursorVisible="false" 
+				        android:focusable="false" 
+				        android:focusableInTouchMode="false">
+				    </EditText>				    
+				    
+				</TableRow>
+
+		</TableLayout>              
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+	   <Button
+	       android:id="@+id/botonImagenCasino"
+	       style="?android:attr/buttonStyleSmall"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:text="Ver imagenes"
+	       android:onClick="onBtnClicked" />
+    </LinearLayout>
+</LinearLayout>

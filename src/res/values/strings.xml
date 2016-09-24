@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UMaps</string>
+    <string name="title_activity_actividad_casino">Casino</string>
+    <string name="title_activity_actividad_imagen_casino">Imagen</string>
+    <string name="title_activity_about_us">AboutUS</string>
+    <string name="texto_about_us">	    Desarrolladores: \n\n
+	    
+	      + Felipe Ortiz González\n
+	      + Yerco Núñez Gallardo\n
+	      + Héctor Herrera González\n</string>
+    <string name="title_activity_actividad_kipus">Edificio I+D</string>
+    <string name="title_activity_actividad_imagen_kipus">Imagen</string>
+    <string name="title_activity_actividad_cancha_futbol">Cancha de Fútbol</string>
+    <string name="title_activity_actividad_imagen_cancha_futbol">Imagen</string>
+
+    <!-- ESTO SE CREA POR DEFECTO -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- ESTO SE CREA POR DEFECTO -->
+
+    <string name="title_activity_actividad_construccion">Edificio Ingeniería en Construcción</string>
+    <string name="title_activity_actividad_imagen_construccion">Imagen</string>
+    <string name="title_activity_actividad_gimnasio">Gimnasio</string>
+    <string name="title_activity_actividad_imagen_gimnasio">Imagen</string>
+    <string name="title_activity_actividad_biblioteca">Biblioteca</string>
+    <string name="title_activity_actividad_imagen_biblioteca">Imagen</string>
+    <string name="title_activity_actividad_imagen_tenis">ActividadImagenTenis</string>
+    <string name="title_activity_actividad_imagen_baby">ActividadImagenBaby</string>
+    <string name="title_activity_actividad_imagen_establos">ActividadImagenEstablos</string>
+    <string name="title_activity_actividad_imagen_labs">ActividadImagenLabs</string>
+    <string name="title_activity_actividad_imagen_excasino">ActividadImagenExcasino</string>
+    <string name="title_activity_actividad_imagen_mecanica">ActividadImagenMecanica</string>
+    <string name="title_activity_actividad_imagen_servicios_multiples">ActividadImagenServiciosMultiples</string>
+    <string name="title_activity_actividad_imagen_edificio_azul">ActividadImagenEdificioAzul</string>
+    <string name="title_activity_actividad_imagen_porteria">ActividadImagenPorteria</string>
+
+</resources>

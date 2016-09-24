@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        
+        <ExpandableListView 
+            android:id="@+id/lista_expandible_biblioteca"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:divider="#36B6E5"
+	        android:dividerHeight="0.5dp">
+            
+        </ExpandableListView>
+        
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+	   <Button
+	       android:id="@+id/botonImagenBiblioteca"
+	       style="?android:attr/buttonStyleSmall"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:text="Ver imagenes"
+	       android:onClick="onBtnClicked" />
+    </LinearLayout>
+</LinearLayout>

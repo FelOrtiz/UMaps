@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.u.maps"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/map_icon"
+        android:label="UMaps"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActividadCasino"
+            android:label="@string/title_activity_actividad_casino"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenCasino"
+            android:label="@string/title_activity_actividad_imagen_casino"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadKipus"
+            android:label="@string/title_activity_actividad_kipus"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenKipus"
+            android:label="@string/title_activity_actividad_imagen_kipus"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadCanchaFutbol"
+            android:label="@string/title_activity_actividad_cancha_futbol"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenCanchaFutbol"
+            android:label="@string/title_activity_actividad_imagen_cancha_futbol"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadConstruccion"
+            android:label="@string/title_activity_actividad_construccion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenConstruccion"
+            android:label="@string/title_activity_actividad_imagen_construccion"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadGimnasio"
+            android:label="@string/title_activity_actividad_gimnasio"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenGimnasio"
+            android:label="@string/title_activity_actividad_imagen_gimnasio"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadBiblioteca"
+            android:label="@string/title_activity_actividad_biblioteca"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenBiblioteca"
+            android:label="@string/title_activity_actividad_imagen_biblioteca"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenTenis"
+            android:label="@string/title_activity_actividad_imagen_tenis"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenBaby"
+            android:label="@string/title_activity_actividad_imagen_baby"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenEstablos"
+            android:label="@string/title_activity_actividad_imagen_establos"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenLabs"
+            android:label="@string/title_activity_actividad_imagen_labs"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenExcasino"
+            android:label="@string/title_activity_actividad_imagen_excasino"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenMecanica"
+            android:label="@string/title_activity_actividad_imagen_mecanica"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenServiciosMultiples"
+            android:label="@string/title_activity_actividad_imagen_servicios_multiples"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenEdificioAzul"
+            android:label="@string/title_activity_actividad_imagen_edificio_azul"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ActividadImagenPorteria"
+            android:label="@string/title_activity_actividad_imagen_porteria"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+    </application>
+
+</manifest>
