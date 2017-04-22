@@ -13,7 +13,7 @@ This small Android app show all the information about buildings and classrooms f
 #### Search Tool
 <img src="https://media.giphy.com/media/7Wh3wMxrbWxA4/giphy.gif">
 
-#Contributors
+# Contributors
 
 - [Felipe Ortiz González](https://github.com/FelOrtiz)
 - [Yerco Núñez Gallardo](https://github.com/yerconunez)
