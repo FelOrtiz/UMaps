@@ -17,4 +17,4 @@ This small Android app show all the information about buildings and classrooms f
 
 - [Felipe Ortiz González](https://github.com/FelOrtiz)
 - [Yerco Núñez Gallardo](https://github.com/yerconunez)
-- [Héctor Herrera González](https://github/hpherrera)
+- [Héctor Herrera González](https://github.com/hpherrera)
