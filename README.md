@@ -1,4 +1,4 @@
-#UMaps
+# UMaps
 
 This small Android app show all the information about buildings and classrooms from Universidad de Talca Engineering School.
 
@@ -17,4 +17,4 @@ This small Android app show all the information about buildings and classrooms f
 
 - [Felipe Ortiz González](https://github.com/FelOrtiz)
 - [Yerco Núñez Gallardo](https://github.com/yerconunez)
-- Héctor Herrera González
+- [Héctor Herrera González](https://github/hpherrera)
